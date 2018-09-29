@@ -17,6 +17,10 @@ body {
   padding: 2px 0 0 0;
 }
 
+.selected {
+  font-weight: bold;
+}
+
 /* Navigation Bar: Block Display + Padding */
 .nav > li {
   display: inline-block;
