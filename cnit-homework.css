@@ -6,6 +6,29 @@ body {
   font-family: 'Arial', serif;
 }
 
+/* Table Navigation */
+.nav-table {
+  list-style: none;
+  text-align: center;
+  padding: 2px;
+  padding-left: 20px;
+}
+
+/* Table Navigation: Block Display + Padding */
+.nav-table > li {
+  display: inline-block;
+  padding: 10px 10px;
+  font-size: 20px 0 0 0;
+}
+
+/* Table Navigation: Remove Underline + Add Color */
+.nav-table > li > a {
+  text-decoration: underline #000000;
+  padding: 2px;
+  color: #000000;
+  text-transform: full-width;
+}
+
 
 /* Navigation Bar */
 
@@ -80,30 +103,48 @@ body {
   box-sizing: border-box;
 }
 
-/* Create two unequal columns that floats next to each other */
-.column {
-    float: left;
-    padding: 30px 30px 30px 30px;
-    height: 300px; /* Should be removed. Only for demonstration */
+/* Table Styles */
+
+/* Align Table Header */
+.tab-header {
+  padding-top: 10px;
+  text-align: center;
 }
 
-.left {
-  width: 25%;
-  min-width: auto;
+/* General Table Styles */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  padding: 10px;
+
 }
 
-.right {
-  width: 75%;
-  padding-left: 80px;
+/* Table Links: Remove underline & add color */
+td > a {
+  text-decoration: none;
+  color: #BD2031;
 }
 
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+td > a:hover {
+  color: #c1c1c1;
 }
 
+/* Table Data & Header: Align, Border, Padding */
+td, th {
+  border: 2px solid #000000;
+  text-align: left;
+  padding: 10px;
+}
+
+/* Tabular Data: Style 3rd child */
+.tabData-3 {
+  color: #BD2031;
+}
+
+/* Table Row: Add background color to odd rows */
+tr:nth-child(even) {
+    background-color: #C0C0C0;
+}
 
 /* Footer: Align and Font-Sizing. */
 #footer {
@@ -116,53 +157,4 @@ body {
 /* Footer: Remove Text Decoration */
 #footer a {
   text-decoration: none;
-}
-
-/* Media Queries: Mobile */
-
-@media screen and (max-width: 400px) {
-
-  .nav > li > a {
-    display: block;
-    padding-left: 100px;
-  }
-
-  .logo {
-    padding-top: 25px;
-    padding-left: 125px;
-  }
-
-  .banner {
-    width: inherit;
-    padding-top: 25px;
-  }
-
-  .left {
-    width: auto;
-    height: 75%;
-  }
-
-  .right {
-    
-  }
-
-  #footer {
-    text-align: center;
-    vertical-align: bottom;
-    padding-top: 100px;
-  }
-
-}
-
-
-/* Media Queries: Tablet */
-
-@media screen and (max-width: 770px) {
-
-  #footer {
-    text-align: center;
-    vertical-align: bottom;
-    padding-top: 150px;
-  }
-
 }
