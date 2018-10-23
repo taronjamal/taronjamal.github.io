@@ -119,3 +119,38 @@ body {
 #footer a {
   text-decoration: none;
 }
+
+
+/* Media Queries */
+
+@media screen and (max-width: 499px) {
+
+  /* Mobile */
+
+  /* Logo + Home */
+  .logo > a {
+    padding-left: 100px;
+  }
+
+  /* Navigation */
+  .nav > li {
+    display: inline-block;
+    float: left;
+    /* background-color: #ffffff;
+    color: #ffffff; */
+    padding: 25px 0 20px 175px;
+  }
+
+
+  /* Banner */
+  .banner > .banner-img {
+    width: 100%;
+    display: flex;
+    padding-bottom: 10px;
+  }
+
+  /* H2 Header */
+  .right {
+    display: flex;
+    padding: 10px;
+  }

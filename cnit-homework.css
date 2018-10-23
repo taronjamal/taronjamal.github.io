@@ -158,3 +158,35 @@ tr:nth-child(even) {
 #footer a {
   text-decoration: none;
 }
+
+
+/* Media Queries */
+
+@media screen and (max-width: 499px) {
+
+  /* Mobile */
+
+  /* Logo + Home */
+  .logo > a {
+    padding-left: 100px;
+  }
+
+  /* Navigation */
+  .nav > li {
+    display: inline-block;
+    float: left;
+    background-color: #ffffff;
+    color: #ffffff;
+    padding: 25px 5px 20px 175px;
+  }
+
+  /* Banner */
+  .banner > .banner-img {
+    width: 100%;
+    display: flex;
+    padding-bottom: 10px;
+  }
+
+  .tab-header table {
+    display: inline-table;
+  }
