@@ -1,0 +1,48 @@
+* {
+  font-family: 'Arial';
+}
+
+
+/* Main Container */
+.main-container {
+  background: url("blackdust.png") no-repeat fixed center;
+  width: auto;
+  height: auto;
+}
+
+
+/* Header */
+.header {
+  color: #c98932;
+  text-align: center;
+  font-size: 35px;
+  text-decoration: underline;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+
+/* Main Content */
+.content {
+  color: #c98932;
+  padding: 25px 25px;
+  font-size: 22px;
+}
+
+
+.thumb2 {
+  opacity: 0.8;
+  height: auto;
+  width: auto;
+  justify-content: center;
+  margin-left: 15%;
+}
+
+
+/* Footer */
+footer {
+  color: #c98932;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
