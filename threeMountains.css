@@ -32,10 +32,15 @@
 
 .thumb2 {
   opacity: 0.8;
-  height: auto;
-  width: auto;
   justify-content: center;
   margin-left: 20%;
+}
+
+
+/* HTML Validator Styles */
+.validate {
+  text-align: center;
+  padding-top: 10px;
 }
 
 

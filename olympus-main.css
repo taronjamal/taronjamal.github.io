@@ -63,6 +63,13 @@ a {
 }
 
 
+/* HTML Validator Styles */
+.validate {
+  text-align: center;
+  padding-top: 10px;
+}
+
+
 /* Footer */
 footer {
   color: #c98932;
