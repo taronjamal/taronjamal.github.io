@@ -146,6 +146,14 @@ tr:nth-child(even) {
     background-color: #C0C0C0;
 }
 
+
+/* HTML Validator Styles */
+.validate {
+  text-align: center;
+  padding-top: 25px;
+}
+
+
 /* Footer: Align and Font-Sizing. */
 #footer {
   text-align: center;
