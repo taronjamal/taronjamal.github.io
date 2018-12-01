@@ -5,6 +5,7 @@
 
 /* Main Container */
 .main-container {
+  /* Gamma correction has been applied to 'blackdust.png' using Gimp */
   background: url("blackdust.png") no-repeat fixed center;
   width: auto;
   height: auto;
