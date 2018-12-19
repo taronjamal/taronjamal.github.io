@@ -1,0 +1,138 @@
+
+/* Universal Styles */
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  background-color: #008000;
+}
+
+
+/* Logo */
+.logo {
+  display: inline-block;
+  margin-right: 20px;
+  padding-bottom: 50px;
+}
+
+
+/* Banner */
+.banner {
+  display: inline-block;
+  margin-left: 15%;
+  font-weight: bold;
+}
+
+.banner-intro {
+  display: inline;
+  margin-left: 25%;
+  font-size: 18px;
+}
+
+
+/* Main Content */
+.content-container {
+  margin-left: 25%;
+  width: 50%;
+}
+
+.content > p {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.sidebar-container {
+  padding-bottom: 65px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sidebar {
+  float: justify;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 5px;
+  overflow: auto;
+}
+
+.sidebar > h3 {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.sidebar > h3 > p {
+  padding: 10px;
+}
+
+#media-header {
+  padding-bottom: 35px;
+}
+
+/* Animated GIF */
+.gif1 {
+  padding-top: 5px;
+  padding-bottom: 35px;
+}
+
+/* CSS Animation */
+.gif2 {
+  padding-top: 5px;
+  padding-bottom: 35px;
+  background: no-repeat transparent;
+  position: relative;
+  animation-timing-function: linear;
+  animation: gif2 2s infinite;
+}
+
+@-webkit-keyframes gif2 {
+  from {left: 0px;}
+  to {left: 25px; }
+}
+
+/* Embedded Audio */
+audio {
+  width: 50%;
+  padding-top: 5px;
+  padding-bottom: 35px;
+}
+
+/* Embedded Video */
+video {
+  padding-top: 5px;
+  padding-bottom: 35px;
+}
+
+/* Main Content */
+.frame1 {
+  padding: 20px;
+  padding-top: 5px;
+  padding-bottom: 35px;
+}
+
+/* iFrame Slideshow */
+#slideshow {
+  margin: 0px auto;
+  /* background: #008000; */
+  width: 325px;
+  border: 0px;
+  padding: 45px 20px;
+}
+
+
+/* HTML Validator Styles */
+.validate {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+
+/* Footer */
+footer {
+  text-align: center;
+  padding-bottom: 10px;
+}
