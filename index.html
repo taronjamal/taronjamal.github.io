@@ -1,60 +1,62 @@
 <!DOCTYPE html>
-
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TaRon Jamal | Home</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-    <link rel="stylesheet" type="text/css" href="cnit.css">
-    <link href="https://fonts.googleapis.com/css?family=Notable" rel="stylesheet">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="fewd.ico">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap" rel="stylesheet">
+  <title>TaRon Jamal | Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-  <body>
+<body>
 
-    <!-- Navigation + Logo -->
-    <ul class="nav">
-        <div class="logo">
-          <a href="index.html">TaRon Jamal</a>
-        </div>
+  <header>
+    <!-- Brand Logo -->
+    <a id="header-ps" href="index.html" class="header-brand">TaRon Jamal</a>
+    <!-- Navigation Menu -->
+      <nav>
+        <ul class="header-list">
+          <li><a href="#">Work</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+  </header>
 
-      <li><a class ="selected" href="index.html">Home</a></li>
-      <li><a href="cnit-about.html">About</a></li>
-      <li><a href="cnit-homework.html">CNIT 132</a></li>
-    </ul>
 
-    <!-- Welcome Banner -->
-    <div class="banner">
-      <img class="banner-img" src="books-2.jpg" alt="Unsplash Sample Image.">
+  <!-- Banner -->
+  <main>
+    <!-- Banner - headline/description -->
+    <section class="index-banner">
+      <div class="vertical-banner">
+        <h2>Frontend <br> Web Development</h2>
+        <h1>Specializing in <br> Responsive Web Design & <br> Cross-Browser Development.</h1>
+      </div>
+    </section>
+  </main>
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-sm">
+      <ul>
+        <li>
+          <a href="https://github.com/taronjamal" target="_blank"><img src="github.png" alt="Github icon."></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/taronjamal" target="_blank"><img src="linkedin-logo.png" alt="LinkedIn icon."></a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com/taronjamal" target="_blank"><img src="twitter.png" alt="Twitter icon."></a>
+        </li>
+      </ul>
     </div>
-
-    <!-- Two Column Layout -->
-    <div class="row">
-      <div class="column left">
-      <img src="mitchells.jpg" width="100%" alt=""/>
+    <div class="footer-copyright">
+      <p>&copy 2019 <em>TaRon Jamal</em>. All rights reserved.</p>
     </div>
-    <div class="column right">
-      <h2>Frontend Web Developer</h2>
-        <i class="devicon-html5-plain-wordmark colored"></i>
-        <i class="devicon-css3-plain-wordmark colored"></i>
-        <i class="devicon-javascript-plain colored"></i>
-        <i class="devicon-java-plain-wordmark colored"></i>
-        <p>Thank you for your interest in my skills and background.</p>
-        <p>Feel free to contact me if interested in a possible collaboration.</p>
-        <p>Happy Coding.</p>
-    </div>
-    </div>
+  </footer>
 
-    <!-- Footer -->
-    <div id="footer">
-      <a href="mailto:tje.hotep@gmail.com"<i style="font-size:24px" class="fa">&#xf003;</i></a>
-        <script>
-          var date = document.lastModified;
-          document.write("Last Modified: "+date);
-        </script>
-    </div>
 
-  </body>
-
+</body>
 </html>

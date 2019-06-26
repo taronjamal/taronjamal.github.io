@@ -1,0 +1,325 @@
+/* Universal Styles */
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+
+/* Body */
+body {
+  /* background-color: #eeeeee; */
+}
+
+
+/* Header - container */
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #fff;
+  width: 100%;
+  height: 100px;
+}
+
+/* Header - fixed navigation. */
+main {
+  padding-top: 100px;
+}
+
+/* Header - logo */
+header .header-brand {
+  font-family: 'Karla', sans-serif;
+  font-size: 24px;
+  font-weight: bolder;
+  /* text-transform: uppercase; */
+  color: #111;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  padding: 15px 0;
+}
+
+#header-position {
+  margin: 40px 10px;
+}
+
+/* Header - navigation */
+header nav ul {
+  margin: 0 auto;
+  display: block;
+  width: fit-content;
+  padding: 10px 0;
+  padding-bottom: 5px;
+  /* padding-left: 15px; */
+}
+
+/* Header - navigation list */
+header nav ul li {
+  display: inline-block;
+  float: none;
+  padding: 0 16px;
+  list-style: none;
+}
+
+/* Header - navigation links */
+header nav ul li a {
+  font-family: 'Karla', sans-serif;
+  font-size: 20px;
+  /* text-transform: uppercase; */
+  color: #111;
+  line-height: 95px;
+}
+
+
+/* Banner container */
+.index-banner {
+  width: 100%;
+  height: calc(70vh - 100px); /* Calculate the difference in height between the header and banner. */
+  background-image: url('trolley.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+}
+
+.vertical-banner {
+  display: table-cell;
+  vertical-align: middle;
+  padding-bottom: 40px;
+}
+
+/* Banner - title */
+.index-banner h2 {
+  font-family: 'Karla', sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  text-shadow: 3px 3px 8px #111;
+}
+
+/* Banner - description */
+.index-banner h1 {
+  font-family: 'Karla', sans-serif;
+  font-size: 23px;
+  font-weight: 200;
+  font-style: italic;
+  line-height: 30px;
+  color: white;
+  text-align: center;
+  text-shadow: 3px 3px 8px #111;
+  padding-top: 5px;
+}
+
+
+/* Footer container */
+.footer-sm {
+  padding: 40px 10px;
+  text-align: center;
+}
+
+/* Footer - links */
+.footer-sm ul li {
+  padding-left: 20px;
+  list-style: none;
+  display: inline-block;
+}
+
+.footer-copyright {
+  font-family: 'Karla', sans-serif;
+  font-size: 18px;
+  font-weight: 520;
+  text-align: center;
+}
+
+
+/* Media Queries */
+@media only screen and (min-width: 1000px) {
+  header .header-brand {
+    text-align: left;
+    float: left;
+    line-height: 40px;
+  }
+  header nav ul {
+    margin: 0;
+    float: right;
+    line-height: 55px;
+  }
+}
+
+/* Media Queries - 750px or less */
+@media only screen and (min-width: 750px) {
+  header .header-brand {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px 0;
+  }
+  header nav ul li {
+    display: inline-block;
+    float: none;
+    padding: 0 16px;
+    list-style: none;
+  }
+  header nav ul li a {
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    /* text-transform: uppercase; */
+    color: #111;
+    line-height: 25px;
+  }
+}
+
+/* Media Queries - 500px or less */
+@media only screen and (min-width: 500px) {
+  header .header-brand {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px 0;
+  }
+  header nav ul li {
+    display: inline-block;
+    float: none;
+    padding: 0 16px;
+    list-style: none;
+  }
+  header nav ul li a {
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    /* text-transform: uppercase; */
+    color: #111;
+    line-height: 25px;
+  }
+}
+
+/* Media Queries - 320px or less */
+@media only screen and (min-width: 320px) {
+  header .header-brand {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px 0;
+  }
+  header nav ul li {
+    display: inline-block;
+    float: none;
+    padding: 0 16px;
+    list-style: none;
+  }
+  header nav ul li a {
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    /* text-transform: uppercase; */
+    color: #111;
+    line-height: 25px;
+  }
+}
+
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
